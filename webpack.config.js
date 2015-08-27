@@ -8,7 +8,7 @@ module.exports = {
     },
     module: {
         loaders: [
-            { test: path.join(__dirname, 'es6'), loader: 'babel' }
+            { test: path.join(__dirname), loader: 'babel' }
         ]
     }
-}
+};

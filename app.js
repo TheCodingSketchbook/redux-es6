@@ -1,2 +1,3 @@
-import * as action from './actions'
+import notesStore from './src/store';
 
+console.log('initial state: ', noteStore.getState());
